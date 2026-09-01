@@ -35,6 +35,7 @@ if ($result->num_rows == 1) {
         <header>
             <h1>Bem-Vindo, <?php echo $user['nome']; ?></h1>
             <h2>Aqui é a página inicial</h2>
+            <button><a href="../HTML/eventos.html">Eventos</a></button>
         </header>
 
         <main>
