@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(219, 219, 219);
+    padding: auto;
+    margin: auto;
+    
+}
+
+h1,h2,p,main,header,footer,form,label {
+    background-color:rgb(170, 170, 170);
+    padding: 5px;
+}
