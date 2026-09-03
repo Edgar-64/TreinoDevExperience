@@ -16,10 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         'SELECT id, email, senha FROM usuarios WHERE email = ? LIMIT 1'
     );
 
-    if (!$stmt) {
-        die('Erro no SQL: ' . $conn->error);
-    }
-
     $stmt->bind_param('s', $email);
     $stmt->execute();
 
