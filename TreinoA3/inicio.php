@@ -122,8 +122,8 @@ $result = $stmt->get_result();
 
                             <?php if ($tipo == 'admin'): ?>
                                 <td>
-                                    <a href="editar.php?=idEvento=<?php echo $user['id']; ?>">Editar</a>
-                                    <a href="excluir.php?=idEvento=<?php echo $user['id']; ?>">Excluir</a>
+                                    <a href="editar.php?idEvento=<?php echo $user['id']; ?>">Editar</a>
+                                    <a href="excluir.php?idEvento=<?php echo $user['id']; ?>">Excluir</a>
                                 </td>
                                 
                             <?php else: ?>
